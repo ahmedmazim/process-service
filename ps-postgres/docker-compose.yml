@@ -14,7 +14,7 @@ services:
     #volumes:
     # - "~/.activiti/enterprise-license:/root/.activiti/enterprise-license/:ro"
     ports:
-    - 9999:8080
+    - 8080:8080
     links:
       - postgres:postgres
     depends_on:
